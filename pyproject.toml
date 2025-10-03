@@ -1,0 +1,23 @@
+[project]
+name = "curso-ia"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "groq>=0.32.0",
+    "nltk>=3.9.1",
+    "numpy>=2.3.3",
+    "openai>=1.109.1",
+    "pydantic>=2.11.9",
+    "qdrant-client>=1.15.1",
+    "rank-bm25>=0.2.2",
+    "scikit-learn>=1.7.2",
+    "sentence-transformers>=5.1.1",
+    "whoosh>=2.7.4",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
